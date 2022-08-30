@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+section {
+    display: flex;
+    align-items: center;
+    background-image: url('../media/homepage_background.svg');
+    min-height: 458px;
+    height: calc(100vh - 190px);
+    background-size: cover;
+    background-position: center bottom;
+}
