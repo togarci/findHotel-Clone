@@ -35,12 +35,12 @@ const Login = ({ openModal, handleModal}: propModal) => {
                 textAlign: 'center',
                 color: 'rgb(42, 51, 61)',
                 padding: '5px 30px',
-                width: '350px'
+                maxWidth: '350px'
             }}>
                 Adquira um código pessoal para iniciar sessão sem uma senha. É rápido e grátis! 🤩
             </span>
             
-            <DialogContent sx={{ width: '350px'}}>
+            <DialogContent sx={{ maxWidth: '350px'}}>
                 <Box>
                     <Button 
                         sx={{ margin: '5px 0px', textTransform: 'none', padding: '10px 0px' }}

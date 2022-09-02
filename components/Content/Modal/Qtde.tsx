@@ -87,14 +87,14 @@ const Qtde = ({ openModal, handleModal }: propModal) => {
 			</IconButton>
 			<DialogTitle>Quartos e Convidados</DialogTitle>
             <Divider />
-            <DialogContent sx={{ width: '350px'}}>
-                <Box component="form" sx={{ display: 'flex', flexWrap: 'wrap', width: '100%' }}>
+            <DialogContent sx={{ maxWidth: '350px' }}>
+                <Box component="form" >
                     {
                         listRoom.map((elem, index) => {
                             return (
                                 <Box key={`quarto-${index}`} sx={{ width: '100%' }}>
-                                    <Box sx={{ display: 'flex', width: '100%', justifyContent: 'space-between', alignItems: 'center' }}>
-                                        <Typography sx={{ fontWeight: 'bolder' }}>
+                                    <Box sx={{ display: 'flex', gap:'10px', width: '100%', justifyContent: 'space-between', alignItems: 'center' }}>
+                                        <Typography sx={{ fontWeight: 'bolder', width: index === 0 && '350px', flex: 1 }}>
                                             {`Quarto ${index + 1}`}
                                         </Typography>
 
@@ -113,7 +113,8 @@ const Qtde = ({ openModal, handleModal }: propModal) => {
                                         alignItems: 'center',
                                         justifyContent: 'space-between',
                                         width: '100%',
-                                        margin: '15px 0px'
+                                        margin: '15px 0px',
+                                        gap:'10px'
                                     }}>
                                         <Typography color={'rgb(42, 51, 61)'}>Adultos</Typography>
 
