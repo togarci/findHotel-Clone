@@ -12,11 +12,11 @@ import {
 } from "@mui/material";
 
 import CloseIcon from '@mui/icons-material/Close';
-import InputQtde from '../../Geral/InputQtde/InputQtde';
+import InputQtde from '../../../Geral/InputQtde';
 
 import { useContext, useState } from "react";
-import { propModal, listRoomModel } from '../types';
-import { HomeContext } from "../../../state-management";
+import { propModal, listRoomModel } from '../../types';
+import { HomeContext } from "../../../../state-management";
 
 const Qtde = ({ openModal, handleModal }: propModal) => {
     const [listRoom, setListRoom] = useState<Array<listRoomModel>>([{

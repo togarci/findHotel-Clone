@@ -3,8 +3,8 @@ import 'react-day-picker/dist/style.css';
 import Head from 'next/head'
 import type { AppProps } from 'next/app'
 
-import Header from '../components/Header/Header'
-import Footer from '../components/Footer/Footer'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 import {
 	HomeProvider,

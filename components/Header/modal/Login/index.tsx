@@ -10,7 +10,7 @@ import {
     Link
 } from "@mui/material";
 
-import { propModal } from '../types';
+import { propModal } from '../../types';
 import { ChatCircleDots, WhatsappLogo, GoogleLogo, FacebookLogo } from 'phosphor-react';
 
 import CloseIcon from '@mui/icons-material/Close';

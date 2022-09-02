@@ -2,7 +2,7 @@ import { useContext, useState } from 'react';
 import { PencilSimple } from 'phosphor-react';
 import { HomeContext } from '../../state-management';
 
-import DatePicker from '../Geral/DatePicker/DatePicker';
+import DatePicker from '../Geral/DatePicker';
 
 import {
     Card,

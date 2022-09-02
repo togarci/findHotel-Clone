@@ -16,8 +16,8 @@ import {
 import CloseIcon from '@mui/icons-material/Close';
 
 import { useContext, useEffect } from "react";
-import { propModal } from '../types';
-import { GeneralContext } from "../../../state-management";
+import { propModal } from '../../types';
+import { GeneralContext } from "../../../../state-management";
 
 const Idioma = ({ openModal, handleModal }: propModal) => {
 	const { 

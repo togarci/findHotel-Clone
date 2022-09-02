@@ -7,10 +7,10 @@ const HomeContext = createContext<Home.formHome>({
     setLocal: (value: string) => {},
     
     entrada: undefined,
-    setEntrada: (value: string) => {},
+    setEntrada: (value: Date) => {},
     
     saida: undefined,
-    setSaida: (value: string) => {},
+    setSaida: (value: Date) => {},
     
     qtdeQuarto: undefined,
     setQuarto: (value: number) => {},
